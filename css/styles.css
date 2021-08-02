@@ -1,0 +1,223 @@
+
+/*for all anchor tag*/
+a{
+	text-decoration: none;
+}
+
+/* anchor tag in nav bar*/
+nav > div > a{
+	font-size: 14px;
+	padding: 20px;
+	transition: all 0.5s;
+}
+nav > div > a:hover {
+	color: #ff3333; /* Primary color */
+} 
+
+/* The navigation bar */
+.navbar {
+	overflow: hidden;
+	background: white;
+	position: fixed; 
+	top: 0; 
+	width: 100%;
+	text-align: right;
+	padding: 20px;
+	box-shadow: 10px 2px 5px #ff3333;
+}
+
+
+.navDiv{
+	display: flex;
+	flex-wrap: wrap;
+	align-self: flex-end; 
+	justify-content: flex-end; 
+	float: right;
+	padding-right: 28px;
+}
+.logoText{
+	color: #ff3333;
+	font-size: 30px;
+	float: left;
+	margin-left: 20px;
+}
+#navimage{
+	float: left;
+	padding-left: 48px;
+	height: 50px;
+}
+
+
+/*home page Division and image*/
+.firstSection{
+	margin: 0px 0px 8rem;
+	padding-top: 120px;
+	height: 500px;
+	display: grid;
+	grid-template-columns: 700px 500px ;
+
+
+}
+.imageFirst{
+	float: right;
+}
+.divFirst{
+	margin-left: 70px ;
+}
+
+.space{
+	color: #003399; /* secondary color */
+	font-size: 20px;
+}
+.homedivpara{
+	font-size: 35px;
+}
+.homedivpara1{
+	text-align: justify;
+}
+.homedivbutton{
+	margin-top: 50px;
+    padding: 10px 18px;
+    text-align: center;
+    background: #003399 ;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+	box-shadow: 5px 2px 10px #ff3333;
+    border-radius: 30px;
+    display: block;
+}
+.homedivbutton:hover{
+	background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    background-color: #ff3333;
+    text-decoration: none;
+    cursor: pointer;
+	background: #ff3333;
+	transform: scale(.90);
+    
+}
+
+
+/*home page Division ends here*/
+
+/*about us Division Starts here*/
+.secondSection{
+	padding-top: 8em;
+
+}
+.aboutDiv{
+	padding-top: 20px;
+	text-align: center;
+	background: yellow;
+	height: 300px;
+}
+.aboutus{
+	color: #ff3333;
+	text-align: center;
+}
+.aboutBold{
+	font-size: 20px;
+}
+/*services Division start here */
+.thirdSection{
+	padding-top: 2em;
+	margin-left: 50px;
+	height: 500px;
+}
+.servSection{
+	display: grid;
+	grid-template-columns: 700px 500px ;
+
+}
+.servImage{
+	float: right;
+	/*margin-top: -210px;*/
+}
+.servHead{
+	padding-left: 28px;
+	color: #003399;
+}
+.servDiv{
+	margin-left: -20px;
+	padding-left: 50px;
+	/*padding-right: 600px;*/
+}
+
+/*services Division ends here*/
+
+/*portfolio Division starts here */
+.fourthSection{
+	padding: 20px;
+	margin-left: 50px;
+	padding-top: 5em;
+	height: 100%;
+}
+.portSection{
+	display: grid;
+	grid-template-columns: 700px 500px ;
+
+}
+.portfoliohead{
+	color: #ff3333;
+}
+.imagePort{
+	float: right;
+}
+/*portfolio Division ends here*/
+/*Contact Us Division starts here*/
+.cont{
+	padding-top: 2em ;
+	display: grid;
+	grid-template-columns: 8fr 4fr;
+
+}
+.contImage{
+	height: 500px;
+	width: 100%;
+}
+.formName{
+	display: grid;
+	grid-template-rows: 50px 50px 130px 50px ;
+}
+.inpName{
+	margin-left: 75px;
+}
+.inpNumb{
+	margin-left: 7px;
+}
+.inpMsg{
+	margin-left: 30px;
+}
+.divCont{
+	border: solid 1px;
+	padding: 50px;
+	border-color: black;
+	border-radius: 10px;
+}
+.headCont{
+	text-align: center;
+	padding-bottom: 10px;
+}
+.btnSub{
+	margin-left: 110px;
+	width: 40%;
+	height: 80%;
+	border-radius: 10px;
+
+}
+.btnSub:hover{
+	transform: scale(.87);
+	cursor: pointer;
+}
+
+/*Contact Us Division ends here*/
+
+/*footer section starts here*/
+.footer{
+	background-color: #003399;
+	text-align: center;
+	color: white;
+	padding: 2em;
+	margin: 0px;
+}
